@@ -4,49 +4,9 @@ createApp({
     data(){
         return {
             
-        activeMail: 0,
-
-        arrayEmail:[
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-
-            {
-                mail: ''
-            },
-            
-            {
-                mail: ''
-            }
-        ]
+        
+        
+        arrayEmail:[]
             
         }
     },
@@ -56,7 +16,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -64,7 +24,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -72,7 +32,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -80,7 +40,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -88,7 +48,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -96,7 +56,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -104,7 +64,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -112,7 +72,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -120,7 +80,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
 
         axios
@@ -128,7 +88,7 @@ createApp({
         .then(
             risposta => {
                 console.log(risposta.data.response);
-                this.activeMail = risposta.data.response;
+                this.arrayEmail.push(risposta.data.response);
             });
     }
 
